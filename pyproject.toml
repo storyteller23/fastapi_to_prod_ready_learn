@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "fastapi-learn"
+version = "0.1.0"
+description = ""
+authors = ["storyteller23 <storyteller0205@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.103.1"
+uvicorn = "^0.23.2"
+pydantic-settings = "^2.0.3"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.2"
+httpx = "^0.25.0"
+mypy = "^1.5.1"
+pylint = "^2.17.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
